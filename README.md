@@ -21,7 +21,7 @@ My eventual conclusion is simple that "No, this is not possible....without cheat
 So I cheated.
 
 ## How did I cheat?
-Basically, for each tree in the set of unit tests, preppep a cheat file.
+Basically, for each tree in the set of unit tests, prepared a cheat file.
 In this cheat file, I place the known correct testValue, with the known encoded string.
 Proceed to build up the tree with provided leaf nodes.
 Then basically randomly assign values to each leaf node (to which you naturally keep references), run a decode, 
