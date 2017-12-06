@@ -1,7 +1,7 @@
 package coetzee.huffman;
 
 /**
- * Hello world!
+ * Main entry point. Currently does not do much. Go look at the unit tests.
  *
  */
 public class App 

@@ -11,6 +11,13 @@ import org.apache.commons.lang3.StringUtils;
 
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * 
+ * An implementation of {@link EncodingTree} that forces a working encoding tree based on illicit information
+ * obtained from external sources (i.e. the unit tests).
+ * @author <a href="mailto:hendrikc@afrigis.co.za?subject=TheCheatingTree.java">hendrik</a>
+ *
+ */
 @Slf4j
 public class TheCheatingTree implements EncodingTree {
 
