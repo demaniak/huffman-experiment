@@ -1,5 +1,11 @@
 package coetzee.huffman.tree;
 
+/**
+ * 
+ * Enum to enumerate the possible branches. You know...left...right....and so forth.
+ * 
+ *
+ */
 public enum Side {
     RIGHT("1"), LEFT("0");
     

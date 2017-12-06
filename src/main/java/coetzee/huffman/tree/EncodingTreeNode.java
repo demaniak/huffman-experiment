@@ -2,6 +2,12 @@ package coetzee.huffman.tree;
 
 import java.util.Optional;
 
+/**
+ * 
+ * Interface for tree nodes.
+ *
+ *
+ */
 public interface EncodingTreeNode {
     /**
      * 
