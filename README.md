@@ -1,5 +1,9 @@
 # huffman-experiment
+*Looking for a huffman compression implementation? This is not it, sorry. This is in NO shape or form some thing that
+anybody will find useful*
+
 Some experiments with huffman encoding.
+
 
 I came across a sorta interesting question recently.
 
