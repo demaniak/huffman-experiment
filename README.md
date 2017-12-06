@@ -42,7 +42,7 @@ YES.
 I can not fully disclose that information at this time. 
 Probably never.
 
-Sometimes you just have an itch that need to be scratched, ok?
+Sometimes you just have an itch that needs to be scratched, ok?
 
 
 
