@@ -1,7 +1,6 @@
 package coetzee.huffman.tree;
 
 import java.io.InputStream;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -31,16 +30,16 @@ public class EncodingTreeFactory {
             treeCheatProps.load(treeIn);
         }
         catch (Exception e) {
-            log.error("Failed to load tree cheat {}. Might as well give up now.", treeName);
+            log.error("Failed to load tree cheat {}. Might as well give up now.", treeName,e);
             System.exit(-1);
         }
         
 
-        EncodingTreeNodeImpl root = new EncodingTreeNodeImpl();
-
-        Arrays.asList(dictionary).forEach(i -> {
-            buildFromTerm(i, root);
-        });
+//        EncodingTreeNodeImpl root = new EncodingTreeNodeImpl();
+//
+//        Arrays.asList(dictionary).forEach(i -> {
+//            buildFromTerm(i, root);
+//        });
 
         return new TheCheatingTree(dictionary,treeCheatProps);
     }
