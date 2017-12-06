@@ -10,8 +10,8 @@ I came across a sorta interesting question recently.
 You are given:
 - a list of encoding strings (essentially the leave nodes of a huffman encoding tree minus the actual symbols)
 - an encoded string
-- a unit test that verfies correct decoding
-- a basic API that specifies a decode method that receives the encoded string and the list of encoding strings as parmaters
+- a unit test that verifies correct decoding
+- a basic API that specifies a decode method that receives the encoded string and the list of encoding strings as parameters.
 
 So the question is: is it actually possible to make this unit test pass?
 Building up the encoding tree is trivial, but without actual symbols to assign to the leaf nodes,it is 
